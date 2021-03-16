@@ -1,0 +1,21 @@
+:root {
+  --text: #283136;
+  --text-light: #666666;
+  --tixt-title: #000000;
+
+  --red: #fb565a;
+  --green: #00ca74;
+  --yellow: #efc849;
+  --grey: #eeeeee;
+  --grey-special: #e1e1e1;
+
+  --red-acent: #fb565a;
+  --green-acent: #00ca74;
+  --yellow-acent: #eab534;
+  --grey-acent: #dfdfdf;
+
+  --red-extra-acent: #d7373b;
+  --green-extra-acent: #00aa62;
+  --yellow-extra-acent: #e5a722;
+  --grey-extra-acent: #D5D5D5;
+}
