@@ -1,13 +1,15 @@
 :root {
   --text: #283136;
   --text-light: #666666;
-  --tixt-title: #000000;
+  --text-title: #000000;
 
   --red: #fb565a;
   --green: #00ca74;
   --yellow: #efc849;
   --grey: #eeeeee;
   --grey-special: #e1e1e1;
+  --grey-additional: #444444;
+  --white: #ffffff;
 
   --red-acent: #fb565a;
   --green-acent: #00ca74;
@@ -18,4 +20,169 @@
   --green-extra-acent: #00aa62;
   --yellow-extra-acent: #e5a722;
   --grey-extra-acent: #D5D5D5;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--text);
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  display: inline-block;
+  color: var(--white);
+  background-color: var(--red);
+  text-transform: uppercase;
+  line-height: 1.125;
+  font-weight: 500;
+  border: none;
+}
+
+.list-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.nav {
+  font-size: 16px;
+  line-height: 1.875;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--text-title);
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-link,
+.nav-basket {
+  color: var(--text-title);
+}
+
+.slider {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slide-title {
+  font-size: 55px;
+  line-height: 1;
+  font-weight: 500;
+  color: var(--text-title);
+}
+
+.services-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-title{
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-title);
+}
+
+.about-us-slogan {
+  font-size: 45px;
+  line-height: 1;
+  font-weight: 500;
+  color: var(--text-title);
+}
+
+.statistics-title {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-title);
+}
+
+.table-heading {
+  font-size: 45px;
+  line-height: 1.422;
+  color: var(--text-title);
+}
+
+.table-cell {
+  line-height: 1.125;
+}
+
+.partners-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contacts-title {
+  font-size: 18px;
+  line-height: 1.666;
+  font-weight: 700;
+  color: var(--text-title);
+}
+
+.contacts-text {
+  line-height: 1.125;
+  color: var(--text-light);
+}
+
+.social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-sections-title {
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--text-title);
+}
+
+.social-sections-text {
+  line-height: 1.375;
+  color: var(--grey-additional);
 }
